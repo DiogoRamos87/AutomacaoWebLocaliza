@@ -10,17 +10,15 @@ import { getParseTreeNode } from "typescript";
 
 // });
 
-// teste 002 visualizar pop-up localiza quer saber sua localização ------- não aparece no debug o pop-up - tirar duvida com henrique
+// teste 002 conheça nossa frota- 
 
-// teste 003 conheça nossa frota- 
+// test ('teste de pagina localiza', async ({ page }) => {
+//     await page.goto('https://www.localiza.com/brasil/pt-br');
+//     await page.getByRole('link', { name: 'Confira todos os grupos' }).click();
 
-test ('teste de pagina localiza', async ({ page }) => {
-    await page.goto('https://www.localiza.com/brasil/pt-br');
-    await page.getByRole('link', { name: 'Confira todos os grupos' }).click();
+//   // ver com henrique... no final ta sumindo o teste e não dar pra ver o local.
 
-  // ver com henrique... no final ta sumindo o teste e não dar pra ver o local.
-
-});
+// });
 
 
 //teste abas: "grupo de carros", "rede de agências", "ofertas", "fidelidade","para empresas", "dúvidas"
@@ -36,5 +34,15 @@ test ('teste de pagina localiza', async ({ page }) => {
 //   await page.getByTestId('loc-menu-desk').getByRole('link', { name: 'Dúvidas' }).click();
 
 // });
+
+
+test ('teste de pagina localiza', async ({ page }) => {
+    
+
+  // ver com henrique... no final ta sumindo o teste e não dar pra ver o local.
+
+});
+
+
 
 //test()
